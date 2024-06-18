@@ -25,41 +25,47 @@
 	<h1 class="mt-4 text-2xl font-extrabold">Then $PEPILLY is for you</h1>
 
 	<div class="mt-10 flex flex-wrap items-center justify-center gap-5 md:gap-10">
-		{#if animate}
-			<img
-				in:fade={{ duration: 1000 }}
-				src="/pepe.png"
-				alt="pepe"
-				class="w-28 rounded-lg md:w-[200px]"
-				width="200"
-				height="200"
-			/>
-		{/if}
-		<!-- content here -->
-
+		<div class="md:h-[200px] md:w-[200px]">
+			{#if animate}
+				<img
+					in:fade={{ duration: 1000 }}
+					src="/pepe.png"
+					alt="pepe"
+					class="h-28 w-28 rounded-lg md:h-[200px] md:w-[200px]"
+					width="200"
+					height="200"
+				/>
+			{/if}
+		</div>
 		<span class="text-3xl font-extrabold">+</span>
-		{#if animate}
-			<img
-				in:fade={{ duration: 1000, delay: 500 }}
-				src="/billy.webp"
-				alt="billy"
-				class="w-28 rounded-lg md:w-[200px]"
-				width="200"
-				height="200"
-			/>
-		{/if}
+		<div class="md:h-[200px] md:w-[200px]">
+			{#if animate}
+				<img
+					in:fade={{ duration: 1000, delay: 500 }}
+					src="/billy.webp"
+					alt="billy"
+					class="h-28 w-28 rounded-lg md:h-[200px] md:w-[200px]"
+					width="200"
+					height="200"
+				/>
+			{/if}
+		</div>
 		<span class="text-3xl font-extrabold">=</span>
-		{#if animate}
-			<img
-				in:fade={{ duration: 1000, delay: 1000 }}
-				src="/pilly.jpg"
-				alt="pilly"
-				class="w-28 rounded-lg md:w-[200px]"
-				width="200"
-				height="200"
-			/>
-		{/if}
+		<div class="md:h-[200px] md:w-[200px]">
+			{#if animate}
+				<img
+					in:fade={{ duration: 1000, delay: 1000 }}
+					src="/pilly.jpg"
+					alt="pilly"
+					class="h-28 w-28 rounded-lg md:h-[200px] md:w-[200px]"
+					width="200"
+					height="200"
+				/>
+			{/if}
+		</div>
 	</div>
+
+	<p class="mt-8 text-center font-bold">ARE YOU GONNA FADE ?</p>
 
 	<div
 		class="md:text-md mx-auto mt-10 flex items-center justify-center gap-3 rounded-md border-2 p-3 text-sm font-bold md:w-fit"
