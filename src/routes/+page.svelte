@@ -18,6 +18,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>$PEPILLY | Home</title>
+</svelte:head>
+
 <div class="grid justify-center px-10 pt-5">
 	<h1 class="text-xl font-extrabold">Did you miss $PEPE ?</h1>
 	<h1 class="text-xl font-extrabold">Did you also miss $BILLY ?</h1>
