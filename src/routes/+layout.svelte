@@ -15,7 +15,7 @@
 	<meta property="og:url" content="https://www.pepilly.xyz" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={title} />
-	<meta property="site_name" content="$PEPILLY" />
+	<meta property="og:site_name" content="$PEPILLY" />
 	<meta property="og:description" content={desc} />
 	<meta property="og:image" content="https://www.pepilly.xyz/og.png" />
 
@@ -23,7 +23,7 @@
 	<meta property="twitter:domain" content="aistudybud.online" />
 	<meta property="twitter:url" content="https://www.pepilly.xyz" />
 	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={desc} />
+	<meta property="twitter:description" content={desc} />
 	<meta name="twitter:image" content="https://www.pepilly.xyz/og.png" />
 
 	<link rel="canonical" href="https://www.pepilly.xyz" />
