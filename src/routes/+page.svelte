@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	let ca = 'F9Np8S8xYdNuDEgtFHiYfqYh3V1QMawueuvvhUGapump';
 	let animate = false;
+    
 
 	function copyCA() {
 		try {
@@ -18,9 +19,7 @@
 	});
 </script>
 
-<svelte:head>
-	<title>$PEPILLY | Home</title>
-</svelte:head>
+
 
 <div class="grid justify-center px-10 pt-5">
 	<h1 class="text-xl font-extrabold">Did you miss $PEPE ?</h1>
